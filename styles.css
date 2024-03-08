@@ -1,0 +1,344 @@
+/* Reset default browser styles */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  /* Adding transition effect */
+}
+
+.logo:hover {
+  color: #ff4500;
+  /* Change color on hover */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  /* Adding transition effect */
+}
+
+.nav-links li a:hover {
+  color: #ff4500;
+  /* Change color on hover */
+}
+
+
+.btn:hover {
+  background-color: #555;
+  color: #fff;
+  /* Change color on hover */
+}
+
+
+/* Hero Section */
+.hero {
+  background-color: #f0f0f0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Adding transition effect */
+}
+
+*/ .btn:hover {
+  background-color: #555;
+  color: #fff;
+  /* Change color on hover */
+}
+
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Slider */
+.slider {
+  /* Add your slider styles here */
+}
+
+/* Counter Section */
+.counter {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.counter-box {
+  margin-bottom: 20px;
+}
+
+.counter-box h2 {
+  font-size: 24px;
+}
+
+.count {
+  font-size: 36px;
+}
+
+/* About Section */
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services .service-item {
+  margin-bottom: 40px;
+}
+
+.services .service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services .service-item p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Contact Information Section */
+.contact-info {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-info .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-info .contact-item {
+  margin-bottom: 40px;
+}
+
+.contact-info .contact-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info .contact-item p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio .portfolio-item {
+  margin: 0 20px 40px;
+}
+
+.portfolio .portfolio-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio .portfolio-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons li a:hover {
+  color: #ff4500;
+  /* Change color on hover */
+}
